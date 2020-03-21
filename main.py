@@ -6,11 +6,11 @@ from selenium import webdriver
 from getpass import getpass
 import time
 
-username = 'viditvarshney222@gmail.com'
-# username = input("Enter your email id")
+# username = 'viditvarshney222@gmail.com'
+username = input("Enter your email id")
 
-password = 'Vidit@#1234'
-# password = getpass("Enter your password")
+# password = ''
+password = getpass("Enter your password")
 
 driver = webdriver.Chrome("/home/vidit/WebDriver/chromedriver")
 
